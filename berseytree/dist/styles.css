@@ -1,0 +1,59 @@
+html,body
+{
+background-color: green;
+width: 100%;
+height: 100%;
+
+}
+.map
+{
+    width: 80%;
+    height: 105%;
+    float: right;
+}
+
+.right_panel
+{
+    
+    background-image:url("/images/orman.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20%;
+    height: 100%;
+    text-align:center;
+    font-size:16px;
+}
+p{  font-size:18px;
+    color:white;
+    background-color:green;
+    text-align:center;
+    text-transform: uppercase;
+}
+
+h1{
+    color:white;
+    background-color:green;
+    text-align:center;
+    text-transform: uppercase;
+    border: solid 2px white;
+}
+button {
+    background-color:green;
+    
+    color: white;
+    padding: 5px 55px;
+    text-align:center;
+    margin: 4px 2px;
+    cursor: pointer;}
+
+#export-png{
+    background-color:darkgreen;
+    margin-left: 20px;
+    
+    color: white;
+    padding: 5px 55px;
+    text-align:center;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v6.2.0/css/ol.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v6.2.0/build/ol.js"></script>
+    </head>
+    <body>
+    <div>
+    <marquee direction="right" bgcolor="lightblue">
+DESIGNED BY BERKAY IBIS AND ZULAL SEYMA GORUR
+</marquee>
+    </div>
+        <div id="map" class="map"></div>
+        <a id="export-png" class="btn btn-default"><i class="fa fa-download"></i> Download Map Image</a>
+        <a id="image-download" download="map.png"></a>
+        <script src="map_handler.js"></script>
+        <div id="right_panel" class="right_panel">
+            <br>
+            <h1>Tree Collector</h1>
+            <br>
+            <br>
+            <p>Tree Type</p>
+            <select id="tree_type">
+                <option value="Çam Ağacı">Çam Ağacı</option>
+                <option value="Kavak Ağacı">Kavak Ağacı</option> 
+                <option value="Mese Ağacı">Mese Ağacı</option>                           
+            </select>
+            <p>Tree Height</p>
+            <input type="text" id="height"></input>
+            <p>Tree Age</p>
+            <input type="text" id="age"></input>
+            <p>Latitude</p>
+            <input type="text" id="Latitude"></input>
+            <p>Longitude</p>
+            <input type="text" id="Longitude"></input>
+            <br>
+            <br>
+            <br>
+            <button id='submit'onclick="submit();">Submit</button>
+        </div>
+    </body>
+</html>
