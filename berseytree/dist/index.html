@@ -16,6 +16,15 @@ DESIGNED BY BERKAY IBIS AND ZULAL SEYMA GORUR
         <div id="map" class="map"></div>
         <a id="export-png" class="btn btn-default"><i class="fa fa-download"></i> Download Map Image</a>
         <a id="image-download" download="map.png"></a>
+        <form>
+      <label>Projection </label>
+      <select id="projection">
+        <option value="EPSG:4326">EPSG:4326</option>
+        <option value="EPSG:3857">EPSG:3857</option>
+      </select>
+      <label>Precision </label>
+      <input id="precision" type="number" min="0" max="12" value="4"/>
+    </form>
         <script src="map_handler.js"></script>
         <div id="right_panel" class="right_panel">
             <br>
